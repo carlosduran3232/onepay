@@ -1,0 +1,1156 @@
+
+ body{
+     margin: 0;
+     overflow-x: hidden;
+     font-family: 'Barlow', sans-serif;
+}
+ footer{
+     float: left;
+     width: 100%;
+}
+ header > nav#sub ul#seccion > li > a, header > nav#sub ul#seccion > li > a:hover {
+     text-decoration: none !important;
+}
+h2{
+  margin-top: 0px !important;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle !important;
+}
+.table {
+    margin-bottom: 0px !important;
+}
+.btn-vermas{
+   position: absolute;
+    margin-left: 29%;
+    top: 86%;
+    padding: 11px;
+    background: #ff3d00;
+    border-radius: 12px;
+    width: 155px;
+    text-align: center;
+    color: white;
+
+}
+.text-none{
+    text-decoration: none;
+}
+/********************************** SECCION 1 *********************************/
+ .section-01{
+     width: 100%;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     height: auto;
+}
+ .section-01 .box-logos{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+ .section-01 .box-logos .img-logo-entel{
+    width: auto;
+    height: 30px;
+    margin-right: 30px;
+}
+
+
+/********************************** SECCION 2 *********************************/
+ .section-02{
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/banner_desktop_onepay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+ }
+.section-02 .box-contrata-hero{
+    background-color: #0154a0;
+    border-left: 7px solid #ff6600;
+    height: 450px;
+}
+.section-02 .box-contrata-hero h2{
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+.section-02 .box-contrata-hero p{
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.section-02 .box-contrata-hero .separador{
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.section-02 .box-contrata-hero .box-btn{
+    display: flex;
+    justify-content: center;
+}
+.section-02 .box-contrata-hero .box-btn .btn-contrata{
+    font-size: 32px;
+    color: #0154a0;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    display:inline-block;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+    padding: 10px 90px;
+    margin: 20px 0;
+    -webkit-transition: .3s;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section-02 .box-contrata-hero .box-btn .btn-contrata:hover{
+    background-color: #0154a0;
+    border: solid 3px #ffffff;
+    color: #ffffff;
+}
+
+
+/********************************** SECCION 3 *********************************/
+ .section-03{
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 550px; 
+ }
+ .section-03 h2{
+    font-size: 42px;
+    color: #0154a0;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+ .section-03 .box-planes{
+    display: flex !important;
+    justify-content: center;
+ }
+ .section-03 .box-planes .box-completa{
+    height: auto;
+    border: 1px solid #979797;
+    border-radius: 20px;
+    padding: 0px 0px 35px 0px;
+    background-color: #ffffff;
+    width: 20%;
+ }
+ .margen-box{
+    margin-left: 50px;
+    margin-right: 50px;
+ }
+ .section-03 .box-planes .box-completa .box-roja{
+    background-color: #d82c2a;
+    border: 1px solid #d82c2a;
+    border-radius: 15px 15px 0px 0px;
+
+ }
+ .section-03 .box-planes .box-completa .box-roja .titulo-box-roja{
+    font-size: 28px;
+    color: #ffffff;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center; 
+    line-height: 1;
+    padding: 20px;
+ }
+
+ .section-03 .box-planes .box-completa .titulo-plan{
+    font-size: 40px;
+    color: #545454;
+    font-family: 'Barlow light', sans-serif;
+            font-weight: 300;
+    text-align: center; 
+    font-style: italic;
+    line-height: 1;
+    margin-top: 30px;
+ }
+.section-03 .box-planes .box-completa .valor{
+    font-size: 45px;
+    color: #545454;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal; 
+}
+.section-03 .box-planes .box-completa .mensual{
+    font-size: 20px;
+    color: #515151;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: normal; 
+}
+
+.section-03 .box-planes .box-completa .box-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.section-03 .box-planes .box-completa .box-btn .btn-detalles{
+    font-size: 22px;
+    color: #ffffff;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    display:inline-block;
+    background-color: #d82c2a;
+    border: 2px solid #d82c2a;
+    padding: 7px 50px;
+    margin: 20px 0;
+    -webkit-transition: .3s;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section-03 .box-planes .box-completa .box-btn .btn-detalles:hover{
+    background-color: #ffffff;
+    border: solid 2px #d82c2a;
+    color: #d82c2a;
+}
+
+
+/********************************** SECCION 5 *********************************/
+ .section-05{
+    width: 100%;
+    background-color: #ffffff;
+    height: 500px; 
+    padding-top: 80px;
+ }
+ .section-05 .box-dispositivos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+ .section-05 .box-dispositivos .img-dispositivos{
+    width: auto;
+    height: 320px;
+  }
+  .section-05 .bajada-dispositivos{
+    font-size: 26px;
+    color: #515151;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1;
+  }
+ .section-05 .box-acordeon{
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  .section-05 .box-acordeon .titulo-acordeon{
+    font-size: 42px;
+    color: #0154a0;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+/**ACORDEON**/
+.accordion {
+    width:100%;
+    background-color: #ffffff;
+    cursor: pointer;
+    padding:15px;
+    display:inline-block;
+    border: solid 2px #b3b1b3;
+    transition:all linear 0.15s;
+    margin-bottom: 10px;
+    /* Type */
+    border-radius: 4px;
+    font-size: 26px;
+    color: #545454;
+    font-family: 'Barlow Regular', sans-serif;
+    font-weight: 400;
+}
+/**.accordion:active{
+     background-color: #005cff;
+  color: #ffffff;
+  }*/
+
+.accordion:after {
+    content: '\f078';
+    color: #b3b1b3;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-family: FontAwesome;
+
+}
+.accordion.active:after {
+    content: "\f077";
+    font-weight: bold;
+    float: right;
+    /**color: #ffffff;**/
+    font-family: FontAwesome;
+}
+
+.accordion:hover .accordion:active{
+  background:#000000;
+  /* Type */
+  text-decoration:none;
+}
+
+.panel {
+    display: none;
+    border-radius: 0px !important;
+    margin-top: -10px;
+    margin-bottom: 0px !important;
+
+}
+.box-interno p{
+    padding: 15px;
+    font-size: 18px;
+    color: #545454;
+    font-family: 'Barlow Regular', sans-serif;
+    font-weight: 400;
+}
+
+/**FOOTER NETFLIX**/
+#footer-netflix{
+    width: 100%;
+    border-top: 1px solid #979797;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+#footer-netflix .box-logos{
+    display: flex;
+    justify-content: flex-start;
+}
+#footer-netflix .box-logos .img-logo-entel{
+    margin-right: 40px;
+}
+#footer-netflix .box-logos .img-logo-entel{
+    width: auto;
+    height: 30px;
+}
+#footer-netflix .box-logos .img-logo-netflix{
+    width: auto;
+    height: 30px;
+}
+#footer-netflix .box-links{
+    display: flex;
+    justify-content: flex-end;
+}
+#footer-netflix .box-links .box-descubrir{
+    margin-left: 50px;
+}
+#footer-netflix .box-links p{
+    text-align: right;
+    font-size: 28px;
+    color: #545454;
+    font-family: 'Barlow Regular', sans-serif;
+    font-weight: 400;
+}
+
+
+/********** VER DETALLES DE PLANES**********/
+.contenedor-lightbox{
+    justify-content: center;
+ }
+.contenedor-lightbox .box-lightbox{
+    height: auto;
+    border: 1px solid #979797;
+    padding: 0px 0px 0px 0px;
+    background-color: #ffffff;
+ }
+.contenedor-lightbox .box-lightbox .table .box-info-lightbox{
+    display: flex;
+    justify-content: center;
+ }
+
+ .contenedor-lightbox .box-lightbox .table .box-title{
+ 
+    background-color: #d82c2a;
+    /*border-left: 3px solid #ffffff;*/
+    border-right-color: #fff: 
+ }
+ .contenedor-lightbox .box-lightbox .table p{
+    text-align: left;
+    font-size: 18px;
+    color: #545454;
+   font-family: 'Barlow Regular', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+.rojo{
+    color: #d82c2a;
+}
+.verde{
+    color: #4caf50;
+}
+ .contenedor-lightbox .box-lightbox .table .box-title h3{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+   font-family: 'Barlow Regular', sans-serif;
+    font-weight: 400;
+}
+.contenedor-lightbox .box-lightbox .table .box-info-lightbox p{
+    text-align: center;
+    font-size: 18px;
+    color: #545454;
+   font-family: 'Barlow Regular', sans-serif;
+    font-weight: 400;
+}
+.contenedor-lightbox .box-lightbox .table .box-info-lightbox .img-check{
+    width: auto;
+    height: 15px;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 70px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000d4;
+}
+
+/* Modal Content */
+.modal-contenido {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.cerrar {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-family: 'Barlow light', sans-serif;
+            font-weight: 300;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/**************** MEDIA QUERY **********************/
+/***************** DESK **********************/
+@media (max-width:1921px){
+    .section-02 {
+    width: 100%;
+    height: 605px;
+    background-image: url(../images/banner_desktop_onepay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    }
+ .btn-vermas {
+    position: absolute;
+    margin-left: 29%;
+    top: 82%;
+    padding: 14px;
+    background: #ff3d00;
+    border-radius: 5px;
+    width: 157px;
+    text-align: center;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+
+}
+}
+
+ @media (max-width:1601px){ 
+        .section-02 {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/banner_desktop_onepay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+   
+    .section-02 .box-contrata-hero h2{
+        padding-top: 60px;
+        font-size: 38px;
+        padding-bottom: 10px;
+    }
+    .section-02 .box-contrata-hero .box-btn .btn-contrata{
+        padding: 10px 100px;
+    }
+
+
+}
+
+ @media (max-width:1561px){
+
+}
+
+ @media (max-width:1441px){
+    .section-02{
+        height: 455px;
+    }
+    .section-02 .box-contrata-hero{
+        height: 455px;
+    }
+    .section-02 .box-contrata-hero h2{
+        font-size: 35px;
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+    .section-02 .box-contrata-hero p{
+        font-size: 25px;
+    }
+    .section-02 .box-contrata-hero .box-btn .btn-contrata{
+        font-size: 28px;
+        padding: 7px 90px; 
+    }
+    .section-03 .box-planes .box-completa{
+        width: 25%;
+    }
+    .section-05 .box-dispositivos .img-dispositivos{
+        height: 300px;
+    }
+    #footer-netflix .box-links p{
+        font-size: 25px;
+    }
+  
+}
+
+ @media (max-width:1367px){
+    .section-02{
+        height: 410px;
+    }
+    .section-02 .box-contrata-hero{
+        height: 410px;
+    }
+    .section-02 .box-contrata-hero h2 {
+        font-size: 32px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .section-02 .box-contrata-hero p {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .section-02 .box-contrata-hero .separador{
+        font-size: 22px;
+    }
+    .section-02 .box-contrata-hero .box-btn .btn-contrata {
+        font-size: 22px;
+        border: 2px solid #ffffff;
+    }
+    .section-02 .box-contrata-hero .box-btn .btn-contrata:hover {
+        border: 2px solid #ffffff;
+    }
+    .section-03 .box-planes .box-completa .titulo-plan{
+        font-size: 30px;
+    }
+    .section-03 .box-planes .box-completa .valor{
+        font-size: 30px;
+    }
+    .section-03 .box-planes .box-completa .mensual {
+        font-size: 18px;
+    }
+    .section-03 .box-planes .box-completa .box-btn .btn-detalles{
+        font-size: 18px;
+    }
+
+    .contenedor-lightbox .box-lightbox .table p{
+        font-size: 16px;
+    }
+    .section-05 .bajada-dispositivos{
+        font-size: 22px;
+    }
+    .section-05 .box-acordeon .titulo-acordeon{
+        font-size: 35px;
+    }
+    .accordion{
+        font-size: 20px;
+    }
+    .section-05 .box-dispositivos .img-dispositivos {
+        height: 280px;
+    }
+    .section-05 .bajada-dispositivos{
+        font-size: 22px;
+    }
+    .section-05 .box-acordeon .titulo-acordeon{
+        font-size: 35px;
+    }
+    .accordion{
+        font-size: 21px;
+    }
+    #footer-netflix .box-logos .img-logo-entel{
+        height: 25px;
+    }
+    #footer-netflix .box-logos .img-logo-netflix{
+        height: 25px;
+    }
+    #footer-netflix .box-links p{
+        font-size: 23px;
+    }
+    .btn-vermas {
+        position: absolute;
+        margin-left: 29%;
+        top: 82%;
+        padding: 9px;
+        background: #ff3d00;
+        border-radius: 5px;
+        width: 151px;
+        text-align: center;
+        color: white;
+        font-family: 'Barlow', sans-serif;
+    }
+}
+
+ @media (max-width:1281px){
+    .section-02{
+        height: 390px;
+    }
+    .section-02 .box-contrata-hero{
+        height: 390px;
+    }
+    .section-05 .box-dispositivos .img-dispositivos{
+        height: 260px;
+    }
+
+}
+
+/***************** TABLET **********************/
+ @media (max-width:1025px){
+    .section-02{
+        height: 320px;
+    }
+    .section-02 .box-contrata-hero{
+        height: 320px;
+    }
+    .section-02 .box-contrata-hero h2 {
+        font-size: 25px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .section-02 .box-contrata-hero p {
+        font-size: 20px;
+    }
+    .section-02 .box-contrata-hero .separador {
+        font-size: 20px;
+    }
+    .section-02 .box-contrata-hero .box-btn .btn-contrata {
+        padding: 7px 80px;
+    }
+    .section-03 .box-planes .box-completa .box-roja .titulo-box-roja{
+        font-size: 23px;
+    }
+    .section-03 .box-planes .box-completa .titulo-plan{
+        font-size: 32px;
+    }
+    .section-03 .box-planes .box-completa .box-btn .btn-detalles{
+        padding: 5px 25px;
+    }
+    .section-05 .box-dispositivos .img-dispositivos{
+        height: 215px;
+    }
+    .section-05 .bajada-dispositivos{
+        font-size: 19px;
+    }
+    .section-05 .box-acordeon .titulo-acordeon{
+        font-size: 30px;
+    }
+    .accordion{
+        font-size: 19px;
+    }
+    .box-interno p{
+        font-size: 16px;
+    }
+    #footer-netflix .box-links p{
+        font-size: 20px;
+    }
+   .btn-vermas {
+    position: absolute;
+    margin-left: 29%;
+    top: 83%;
+    padding: 9px;
+    background: #ff3d00;
+    border-radius: 5px;
+    width: 98px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+}
+
+  
+}
+
+ @media (max-width:768px){
+    .section-02{
+        height: 239px;
+        background-image: url(../images/banner_desktop_onepay.png);
+    }
+    .section-02 .alto-mobile{
+        height: 417px;
+    }
+    .section-02 .box-contrata-hero{
+        height: 220px;
+        border-left: 0px;
+        border-top: 7px solid #ff6600;
+    }
+ .btn-vermas {
+    position: absolute;
+    margin-left: 27%;
+    top: 84%;
+    padding: 3px;
+    background: #ff3d00;
+    border-radius: 4px;
+    width: 103px;
+    text-align: center;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+    
+    /**MOBILE PLANES**/
+    .section-04{     
+        width: 100%;
+        background-color: #f1f1f1;
+        height: 670px;
+        margin-top: 215px;
+     } 
+     .section-04 h2{
+        font-size: 42px;
+        color: #0154a0;
+        font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+     .section-04 .box-planes{
+        margin-bottom: 30px;
+     }
+
+     .section-04 .box-planes .box-completa{
+        height: auto;
+        border: 1px solid #979797;
+        border-radius: 20px;
+        padding: 0px 0px 35px 0px;
+        background-color: #ffffff;
+     }
+
+     .section-04 .box-planes .box-completa .box-roja{
+        background-color: #d82c2a;
+        border: 1px solid #d82c2a;
+        border-radius: 15px 15px 0px 0px;
+
+     }
+     .section-04 .box-planes .box-completa .box-roja .titulo-box-roja{
+        font-size: 28px;
+        color: #ffffff;
+        font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+        text-align: center; 
+        line-height: 1;
+        padding: 20px;
+     }
+
+     .section-04 .box-planes .box-completa .titulo-plan{
+        font-size: 54px;
+        color: #545454;
+        font-family: 'Barlow light', sans-serif;
+            font-weight: 300;
+        text-align: center; 
+        font-style: italic;
+        line-height: 1;
+        margin-top: 40px;
+     }
+    .section-04 .box-planes .box-completa .valor{
+        font-size: 58px;
+        color: #545454;
+        font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+        text-align: center;
+        font-style: normal; 
+    }
+    .section-04 .box-planes .box-completa .mensual{
+        font-size: 20px;
+        color: #515151;
+        font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+        text-align: center;
+        font-style: normal; 
+    }
+
+    .section-04 .box-planes .box-completa .box-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .section-04 .box-planes .box-completa .box-btn .btn-detalles{
+        font-size: 28px;
+        color: #ffffff;
+        font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+        text-align: center;
+        display:inline-block;
+        background-color: #d82c2a;
+        border: 2px solid #d82c2a;
+        padding: 7px 50px;
+        margin: 20px 0;
+        -webkit-transition: .3s;
+        text-decoration: none;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .section-04 .box-planes .box-completa .box-btn .btn-detalles:hover{
+        background-color: #ffffff;
+        border: solid 2px #d82c2a;
+        color: #d82c2a;
+    }
+   
+/***DOTS CARRUSEL***/
+   .owl-dots button {
+        background-color: transparent;
+        border: none;
+    }
+
+   .owl-dots {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .owl-dots .owl-dot {
+        display: inline-block;
+        zoom: 1;
+        display: inline;
+    }
+    .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        margin: 5px 7px;
+        background: #D6D6D6;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity 200ms ease;
+        border-radius: 30px;
+    }
+    .owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+      background: #869791;
+    }
+
+    .section-05 .box-dispositivos .img-dispositivos{
+        height: 230px;
+    }
+    .section-05 .box-acordeon{
+        margin-top: 20px;
+    }
+    #footer-netflix .box-logos{
+        justify-content: flex-start;
+    }
+    #footer-netflix .box-links{
+        margin-top: -25px;
+    }
+
+}
+
+/****************** MOVIL *********************/
+ @media (max-width:737px){
+  
+}
+
+ @media (max-width:668px){
+}
+
+ @media (max-width:600px){
+
+}
+
+ @media (max-width:500px){
+    .modal {
+        overflow: auto !important;
+    }
+     .section-01 .box-logos{
+        justify-content: center;
+    }
+    .section-02{
+        height: 217px;
+    }
+    .section-02 .alto-mobile{
+        height: 217px;
+    }
+    .section-02 .box-contrata-hero {
+        height: 180px;
+    }
+    .section-02 .box-contrata-hero h2 {
+        font-size: 22px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+    .section-02 .box-contrata-hero p {
+        font-size: 16px;
+    }
+    .section-02 .box-contrata-hero .separador {
+        font-size: 18px;
+    }
+    .section-02 .box-contrata-hero .box-btn .btn-contrata {
+        font-size: 16px;
+        padding: 5px 40px;
+    }
+    .section-04{
+        margin-top: 175px;
+        height: 500px;
+    }
+    .section-04 h2 {
+        font-size: 32px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .section-04 .box-planes .box-completa .box-roja .titulo-box-roja {
+        font-size: 22px;
+    }
+    .section-04 .box-planes .box-completa .titulo-plan {
+        font-size: 34px;
+        margin-top: 30px;
+    }
+    .section-04 .box-planes .box-completa .valor {
+        font-size: 38px;
+    }
+    .section-04 .box-planes .box-completa .mensual {
+        font-size: 16px;
+    }
+    .section-04 .box-planes .box-completa .box-btn .btn-detalles {
+        font-size: 18px;
+    }
+    .section-05 .bajada-dispositivos{
+        font-size: 17px;
+    }
+    .accordion{
+        font-size: 16px;
+    }
+        #footer-netflix .box-links p{
+        font-size: 16px;
+    }
+    .contenedor-lightbox .box-lightbox .table p{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    #footer-netflix{
+        margin-bottom: 10px;
+        padding-top: 20px;
+    }
+    #footer-netflix .box-logos .img-logo-entel{
+        height: 20px;
+    }
+    #footer-netflix .box-logos .img-logo-netflix{
+        height: 20px;
+    }
+    #footer-netflix .box-links .box-terminos{
+        justify-content: center;
+        width: 100%;
+    }
+    #footer-netflix .box-links .box-terminos p{
+        font-size: 15px;
+        text-align: center;
+        margin-top: -30px;
+    }
+    #footer-netflix .box-logos {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    #footer-netflix .box-links .box-descubrir{
+        justify-content: flex-end;
+        width: 100%;
+        margin-left: 0px;
+    }
+     #footer-netflix .box-links .box-descubrir p{
+        text-align: right;
+        font-size: 15px;
+    }
+    .section-02 {
+    height: 523px;
+    background-image: url(../images/banner_responsive_onepay.png);
+}
+.btn-vermas {
+    position: absolute;
+    margin-left: 35%;
+    top: 92%;
+    padding: 5px;
+    background: #ff3d00;
+    border-radius: 3px;
+    width: 103px;
+    text-align: center;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+}
+
+ @media (max-width:414px){
+   
+}
+
+ @media (max-width:412px){
+  
+}
+
+ @media (max-width:376px){
+    .section-02 .box-contrata-hero {
+        height: 170px;
+    }
+    .section-02 .box-contrata-hero h2{
+        padding-top: 10px;
+    }
+    .section-05 .box-dispositivos .img-dispositivos{
+        height: 150px;
+    }
+    .section-05 .bajada-dispositivos {
+        font-size: 16px;
+    }
+    .accordion{
+        font-size: 17px;
+    }
+    .section-02 {
+    height: 462px;
+    background-image: url(../images/banner_responsive_onepay.png);
+}
+.btn-vermas {
+    position: absolute;
+    margin-left: 32%;
+    top: 93%;
+    padding: 3px;
+    background: #ff3d00;
+    border-radius: 3px;
+    width: 103px;
+    text-align: center;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+ 
+}
+
+ @media (max-width:360px){
+    .section-02{
+        height: 442px;
+    }
+    .section-02 .alto-mobile{
+        height: 165px;
+    }
+    .section-04 {
+        margin-top: 167px;
+    }
+    .section-04 .box-planes {
+        margin-bottom: 10px;
+    }
+
+ 
+}
+ @media (max-width:321px){
+    .section-04{
+        height: 450px;
+    }
+    .section-04 h2{
+        font-size: 28px;
+    }
+    .section-04 .box-planes .box-completa .box-roja .titulo-box-roja {
+        font-size: 20px;
+        padding: 15px;
+        margin-bottom: 0px;
+    }
+    .section-04 .box-planes .box-completa .titulo-plan {
+        font-size: 25px;
+    }
+    .section-04 .box-planes .box-completa .box-btn .btn-detalles {
+        font-size: 16px;
+        padding: 7px 30px;
+    }
+    .section-05{
+        padding-top: 50px;
+    }
+    .section-05 .box-dispositivos .img-dispositivos{
+        height: 125px;
+    }
+    .section-05 .box-acordeon .titulo-acordeon{
+        font-size: 24px;
+    }
+    .accordion{
+        font-size: 15px;
+    }
+    #footer-netflix .box-links .box-terminos p{
+        font-size: 12px;
+    }
+    #footer-netflix .box-links .box-descubrir p{
+        font-size: 12px;
+    }
+    .section-02 {
+    height: 393px;
+}
+.btn-vermas {
+    position: absolute;
+    margin-left: 32%;
+    top: 93%;
+    padding: 3px;
+    background: #ff3d00;
+    border-radius: 3px;
+    width: 91px;
+    text-align: center;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+}
+
+}

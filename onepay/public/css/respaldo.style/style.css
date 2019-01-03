@@ -1,0 +1,1215 @@
+@charset "utf-8";
+
+/***********************************
+    PLANES PERSONAS
+    Creada: 19.02.18
+***********************************/
+
+/***********************************
+    FONT FACE
+***********************************/
+
+@font-face {
+    font-family: 'font-awesome';
+    src: url('../fonts/fontawesome-webfont.eot');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.ttf') format('truetype'), 
+    url('../fonts/fontawesome-webfont.svg#dinnext_font-awesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dinnext regular';
+    src: url('../fonts/dinnext-regular-webfont.eot');
+    src: url('../fonts/dinnext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/dinnext-regular-webfont.ttf') format('truetype'), 
+    url('../fonts/dinnext-regular-webfont.svg#dinnext_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dinnext medium';
+    src: url('../fonts/dinnext-medium-webfont.eot');
+    src: url('../fonts/dinnext-medium-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/dinnext-medium-webfont.ttf') format('truetype'), 
+    url('../fonts/dinnext-medium-webfont.svg#dinnext_medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dinnext Light';
+    src: url('../fonts/dinnext-light-webfont.eot');
+    src: url('../fonts/dinnext-light-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/dinnext-light-webfont.ttf') format('truetype'), 
+    url('../fonts/dinnext-light-webfont.svg#dinnext_light') format('svg');
+}
+@font-face {
+    font-family: 'dinnext bold';
+    src: url('../fonts/dinnext-bold-webfont.eot');
+    src: url('../fonts/dinnext-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/dinnext-bold-webfont.ttf') format('truetype'), 
+    url('../fonts/dinnext-bold-webfont.svg#dinnext_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'), 
+    url('../fonts/roboto-regular-webfont.svg#Roboto_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/roboto-bold-webfont.ttf') format('truetype'), 
+    url('../fonts/roboto-bold-webfont.svg#Roboto_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/roboto-light-webfont.ttf') format('truetype'), 
+    url('../fonts/roboto-light-webfont.svg#Roboto_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/original_MyriadPro-Regular.eot');
+    src: url('../fonts/original_MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/original_MyriadPro-Regular.ttf') format('truetype'), 
+    url('../fonts/original_MyriadPro-Regular.svg#Roboto_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TrebuchetMS Regular';
+    src: url('../fonts/TrebuchetMS-regular.eot');
+    src: url('../fonts/TrebuchetMS-regular.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/TrebuchetMS-regular.ttf') format('truetype'), 
+    url('../fonts/TrebuchetMS-regular.svg#TrebuchetMS_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*****************************************
+    AJUSTES GENERALES PARA TEST Y PRO
+*****************************************/
+
+html {
+    height: 100%
+}
+* {
+    margin: 0;
+    padding: 0
+}
+footer {
+    float: left!important;
+    width: 100%!important
+}
+body{
+    overflow-x: hidden;
+}
+
+.btn-orange {
+    font-size: 15px;
+    color: #FFF;
+    font-family: "Roboto Regular";
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    background-color: #FF6702;
+    border: solid 1px #FF6702;
+    padding: 6px 10px!important;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-sizing: border-box;
+}
+.btn-orange:hover {
+    background-color: #FFF;
+    border: solid 1px #FF6601;
+    color: #FF6601;
+}
+.btn-blue {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 220px;
+    background-color: #0154a0;
+    border: 1px solid #0154a0;
+    border-radius: 5px;
+    color: #FFF;
+    display: inline-block;
+    font-family: "dinnext regular", "Trebuchet MS", Arial;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 8px;
+    transition: all 0.5s;
+}
+.btn-blue:hover {
+    color: #0154a0;
+    background-color: #FFF;
+    border: 1px solid #0154a0;
+}
+.style-bold{
+    font-family: 'dinnext bold';
+}
+.text-pagacuenta{
+    color:#005CFF;
+    font-size: 58px;
+}
+.text-rosa{
+    color: #fd6e99;
+    font-size: 52px;
+}
+.text-right{
+    text-align: right!important;
+}
+.text-rosa-entel{
+    color: #fd6e99;
+    font-size: 22px;
+}
+.text-green{
+    color: #a4f2d9;
+}
+.text-blue{
+    color: #0f80ce;
+}
+.title-primer{
+    font-size: 1.2em;
+}
+.title-second{
+    font-size: 0.7em;
+}
+.title-third{
+    font-size: 0.4em;
+}
+.lh-20{
+    line-height: 20px;
+}
+.lh-48{
+    line-height: 48px;
+}
+.mt-156{
+    margin-top: -156px;
+}
+.text-block-blue{
+    margin-top: 96px; */
+    float: left;
+    width: 38%;
+    color: #fff;
+    text-align: justify;
+    font-family: 'dinnext regular';
+    font-size: 16px;
+    margin-left: 286px;
+    padding-top: 45px;
+}
+.img-icon{
+    width: 5%!important;
+}
+/***********************************
+    BANNER PRINCIPAL
+***********************************/
+.section-02{
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/landing-principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+.section-02 .box-contrata-hero{
+    background-color: #0154a0;
+    border-left: 7px solid #ff6600;
+    height: 450px;
+}
+.section-02 .box-contrata-hero h2{
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+.section-02 .box-contrata-hero p{
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.section-02 .box-contrata-hero .separador{
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.section-02 .box-contrata-hero .box-btn{
+    display: flex;
+    justify-content: center;
+}
+.section-02 .box-contrata-hero .box-btn .btn-contrata{
+    font-size: 32px;
+    color: #0154a0;
+    font-family:'Barlow Regular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    display:inline-block;
+    background-color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 6px;
+    padding: 10px 90px;
+    margin: 20px 0;
+    -webkit-transition: .3s;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.section-02 .box-contrata-hero .box-btn .btn-contrata:hover{
+    background-color: #0154a0;
+    border: solid 3px #ffffff;
+    color: #ffffff;
+}
+
+.banner-principal{
+    margin-top: 105px;
+   /* background-image: url(../images/becca-tapert-unsplash.png);*/
+    background-position: center 100%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 45%;
+    height: 693px;
+}
+.bloque-azul{
+   
+    margin-top: 105px;
+    background-image: url(../images/block-blue.png);
+    /* background-position: center 100%; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 90%;
+    height: 293px;
+    padding-left: 80px;
+    background-size: 66%;
+    background-repeat: no-repeat;
+
+}
+.phone-video{
+    float: right!important;
+    margin-right: -240px;
+    margin-top: -227px;
+    width: 35%;
+}
+.banner-secundario{
+    margin-top: 111px;
+    background-size: cover;
+    width: 103%;
+    height: 785px;
+    margin-left: 120%;
+}
+.banner-secundario .pagacuenta{
+    /*float: left;*/
+    width: 58%;
+    color: black;
+    text-align: justify;
+    font-family: 'dinnext regular';
+    font-size: 16px;
+    margin-left: 10px;
+    padding-top: 57px;
+    line-height: 57px;
+}
+.background-azul {
+    background-image: url(../images/azul_iferior.png);
+    background-size: cover;
+    margin-top: 70%;
+    
+}
+.movil{
+    display: none;
+}
+.img-jamon{
+    margin-top: -20%;
+}
+.fondo-azul{
+    background: #005CFF;
+}
+.text-white{
+    color: white;
+}
+.w-100{
+    width: 100%;
+}
+.p-3{
+    padding-bottom: 3em;
+}
+.logos-app{
+    width: 200px;
+}
+.banner-principal .pago-automatico{
+    width: 240%;
+    float: left;
+}
+.banner-principal .pago-automatico .img-pago-autm{
+    width: 50%;
+    float: left;
+    margin-left: 325px;
+    margin-top: 97px;
+}
+.banner-principal .pago-automatico .img-pago-autm img{
+    /*width: 100%!important*/
+}
+.banner-principal .inscripcion-pg-autm{
+    float: left;
+    width: 38%;
+    color: #fff;
+    text-align: justify;
+    font-family: 'dinnext regular';
+    font-size: 16px;
+    margin-left: 325px;
+    padding-top: 57px;
+}
+
+.banner-principal .img-dirct-info{
+    width: 28%;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    right: 300px;
+    top: 181px;
+}
+.mob-inscripcion-pg-autm{
+        display: none;
+    }
+.info-icon-a{
+    width: 41%;
+    float: left;
+}
+.info-icon-b{
+    width: 47%;
+    float: right;
+}
+.info-icon-c{
+    width: 41%;
+    float: left;
+}
+.info-icon-d{
+    width: 41%;
+    float: right;
+}
+.info-icon-e{
+    width: 41%;
+    float: left;
+    margin-top: 38px;
+}
+.info-icon-f{
+    width: 41%;
+    float: right;
+}
+.info-icon-g{
+    width: 41%;
+    float: left;
+}
+.contenido{
+    float: left;
+    width: 100%;
+    position: relative;
+    /*background-image: url(../images/BG_gris.jpg);*/
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -214px;
+}
+.contenedor-pasos{
+    width: 775px;
+    margin: 0 auto;
+}
+.info-tarjeta{
+    float: left;
+    width: 100%;
+    margin-top: 31px;
+    color: #777777;
+    font-size: 20px;
+    font-family: 'dinnext regular';
+}
+.info-tarjeta-a{
+    float: left;
+    width: 100%;
+    margin-top: 31px;
+    color: #777777;
+    font-size: 20px;
+    font-family: 'dinnext regular';
+}
+.texto-info-a{
+    float: right;
+    width: 41%;
+    margin-top: 121px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+}
+.texto-info-b{
+    float: right;
+    width: 49%;
+    margin-top: 121px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    padding-top: 379px;
+}
+.texto-info-c{
+    float: right;
+    width: 39%;
+    margin-top: 121px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+}
+.texto-info-d{
+    float: right;
+    width: 53%;
+    margin-top: 121px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+}
+.texto-info-e{
+    float: right;
+    width: 50%;
+    margin-top: 115px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    margin-right: -63px;
+    font-family: 'dinnext regular';
+}
+.texto-info-f{
+    float: right;
+    width: 49%;
+    margin-top: 121px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+}
+.texto-info-g{
+    float: right;
+    width: 40%;
+    margin-top: 121px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+}
+.tipo-a{
+    float: left;
+    width: 100%;
+}
+.tipo-b{
+    float: left;
+    width: 100%;
+}
+.tipo-c{
+    float: left;
+    width: 100%;
+}
+.tipo-d{
+    float: left;
+    width: 100%;
+}
+.tipo-e{
+    float: left;
+    width: 100%;
+}
+.tipo-f{
+    float: left;
+    width: 100%;
+}
+.tipo-g{
+    float: left;
+    width: 100%;
+}
+.color-orange-info{
+    color: #e15100;
+}
+.separador{
+    width: 100%;
+    margin-top: 59px;
+    border: 1px solid #a9a9a9;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-30{
+    margin-bottom:30px;
+}
+/***********************************
+    MEDIA QUERYS DESTK
+***********************************/
+@media (max-width:1920px) {
+   .banner-principal {
+    height: 825px;
+    }
+    .movil{
+    display: none;
+	}
+   .banner-principal .img-dirct-info {
+    right: 424px;
+    top: 238px;
+    }
+    .banner-principal .pago-automatico .img-pago-autm {
+    margin-left: 238px;
+    }
+    .banner-principal .inscripcion-pg-autm{
+     margin-left: 238px;   
+    }
+    .banner-secundario{
+        margin-top: 111px;
+        background-size: cover;
+        width: 77%;
+        height: 768px;
+        margin-left: 120%;
+    }
+    .text-pagacuenta{
+    color:#005CFF;
+    font-size: 80px;
+    }
+    .text-galaxy{
+    font-size: 46px;
+    }
+    .background-azul {
+    margin-top: 52%!important;
+	}
+	.mt-16{
+    margin-top: -16%;
+	}
+	.phone-video {
+    float: right!important;
+    margin-right: -240px;
+    margin-top: -290px;
+    width: 35%;
+   }
+   .section-02 {
+    height: 615px;
+	}
+}
+@media (max-width:1601px) {
+
+    .banner-principal {
+    height: 777px;
+    }
+    .banner-principal .img-dirct-info {
+    right: 350px;
+    top: 214px;
+    }
+    .banner-secundario {
+    margin-top: 111px;
+    /*background-image: url(../images/laptop-derecha.png);*/
+    background-size: cover;
+    width: 118%;
+    height: 745px;
+    margin-left: 110%;
+    }
+    .phone-video {
+    float: right!important;
+    margin-right: -240px;
+    margin-top: -227px;
+    width: 35%;
+}
+   
+}
+@media (max-width:1560px) {
+  
+}
+@media (max-width:1440px) {
+   .banner-principal .img-dirct-info {
+    right: 317px;
+    top: 237px;
+    }
+    .banner-principal .inscripcion-pg-autm {
+    margin-left: 171px;
+    }
+    .banner-principal .pago-automatico .img-pago-autm {
+    margin-left: 171px;
+    margin-top: 56px;
+    }
+    .banner-principal {
+    margin-top: 105px;
+    /*background-image: url(../images/becca-tapert-unsplash.png);*/
+    background-position: center 100%;
+    background-size: cover;
+    width: 53%;
+    height: 760px;
+    }
+    .banner-secundario {
+    margin-top: 111px;
+   /* background-image: url(../images/laptop-derecha.png);*/
+    background-size: cover;
+    width: 93%;
+    height: 625px;
+    margin-left: 105%;
+    }
+}
+@media (max-width:1366px) {
+    .banner-principal .img-dirct-info {
+    right: 302px;
+    top: 255px;
+    }
+}
+@media (max-width:1280px) {
+    .banner-principal .img-dirct-info {
+    top: 255px;
+    right: 272px;
+    }
+    .banner-principal .inscripcion-pg-autm {
+    margin-left: 125px;
+    }
+    .banner-principal .pago-automatico .img-pago-autm {
+    margin-left: 125px;
+    }
+    .banner-principal {
+    margin-top: 105px;
+    /*background-image: url(../images/becca-tapert-unsplash.png);*/
+    background-position: center 100%;
+    background-size: cover;
+    width: 59%;
+    height: 683px;
+    }
+    .banner-secundario {
+    margin-top: 111px;
+    /*background-image: url(../images/laptop-derecha.png);*/
+    background-size: cover;
+    width: 89%;
+    height: 618px;
+    margin-left: 104%;
+    background-size: 74%;
+    background-repeat: no-repeat;
+}
+.contenido {
+    float: left;
+    width: 100%;
+    position: relative;
+    /* background-image: url(../images/BG_gris.jpg); */
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -175px;
+}
+}
+@media (max-width:1025px) {
+  .banner-principal {
+    margin-top: 105px;
+    /*background-image: url(../images/becca-tapert-unsplash.png);*/
+    background-position: center 100%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 58%;
+    height: 580px;
+}
+.banner-secundario{
+
+    margin-top: -327px;
+   /* background-image: url(../images/laptop-derecha.png);*/
+    /* background-position: center 100%; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 118%;
+    height: 492px;
+    /* margin-left: 100%; */
+    margin-left: 105%;
+    background-size: 58%;
+}
+.banner-secundario .pagacuenta {
+    /* float: left; */
+    width: 38%;
+    color: black;
+    text-align: justify;
+    font-family: 'dinnext regular';
+    font-size: 16px;
+    margin-left: 10px;
+    padding-top: 300px;
+    line-height: 38px;
+}
+.banner-principal .inscripcion-pg-autm {
+    margin-left: 0;
+    float: none;
+    margin: 0 auto;
+    margin-left: 145px;
+}
+.banner-principal .pago-automatico .img-pago-autm img {
+    width: 100%!important;
+    margin-left: -61px;
+}
+    .banner-principal .img-dirct-info {
+        display: none;
+    }
+    .banner-principal .pago-automatico .img-pago-autm {
+      width: 30%;
+      margin: 0 auto;
+      float: none;
+      padding-top: 30px;
+}
+.text-pagacuenta {
+    color: #005CFF;
+    font-size: 35px;
+}
+.text-rosa {
+    color: #fd6e99;
+    font-size: 35px;
+}
+.background-azul {
+    margin-top: 62%!important;
+}
+ .mt-16 {
+    margin-top: -10%;
+} 
+.smartphone{
+    width: 130%;
+} 
+}
+/***********************************
+    MEDIA QUERYS TABLE
+***********************************/
+@media (max-width:823px) {
+   
+}
+@media (max-width:768px) {
+  .banner-principal {
+    height: 842px;
+    /*background-image: url(../images/becca-tapert-unsplash.png);*/
+    width: 100%;
+    margin: 0;
+}
+    .banner-secundario {
+    margin-top: -127px;
+    /*background-image: url(../images/BG_banner_mob.png);*/
+    background-size: cover;
+    width: 172%;
+    height: 767px;
+    margin-left: 45%;
+    background-size: 35%;
+}
+    .banner-principal .inscripcion-pg-autm {
+    display: none;
+}
+.style-bold-mob{
+        font-size: 32px;
+        font-family: 'dinnext bold';
+    }
+
+    .contenedor-pasos{
+    width: 595px;
+    margin: 0 auto;
+    }
+    
+   .banner-principal .pago-automatico .img-pago-autm {
+    width: 56%;
+    margin: 0 auto;
+    float: none;
+    padding-top: 30px;
+}
+.mob-inscripcion-pg-autm {
+    display: block;
+    text-align: justify;
+    font-family: 'dinnext regular';
+    font-size: 26px;
+    color: #b6b6b6;
+    width: 47%;
+    margin: 0 auto;
+    padding-top: 75px;
+    margin-bottom: 40px;
+}
+.pagacuenta{
+    display: none;
+}
+
+  .texto-info-e {
+    width: 107%;
+    margin-top: 36px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    float: left;
+   
+}
+.info-icon-b {
+    width: 95%;
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 264px;
+}
+.desktop{
+    display: none;
+}
+.movil{
+    display: block;
+}
+.text-rosa {
+    color: #fd6e99;
+    font-size: 30px;
+}
+.text-pagacuenta {
+    color: #005CFF;
+    font-size: 30px;
+}
+.pagacuenta{
+    display: none;
+}
+
+ .banner-secundario {
+        margin-top: 0px;
+   /* background-image: url(../images/BG_banner_mob.png);*/
+    background-size: contain;
+    width: 145%;
+    height: 798px;
+    margin-left: 33%;
+    background-size: 45%;
+    position: relative;
+    top: 50px;
+}
+.banner-principal .pago-automatico .img-pago-autm img {
+    width: 100%!important;
+    margin-left: -15px;
+}
+.background-azul {
+    margin-top: 255%!important;
+}
+.text-right{
+    text-align: center!important;
+}
+.smartphone {
+    width: 120%;
+}
+
+
+}
+
+@media (min-width:568px) and (max-width:737px) {
+ 
+}
+
+/***********************************
+    MEDIA QUERYS MOBILE
+***********************************/
+@media (max-width:450px) {
+   /*.banner-principal {
+    background-image: url(../images/BG_banner_mob.png);
+    height: 516px;
+    }*/
+
+    .banner-principal{
+    height: 433px;
+    /*background-image: url(../images/becca-tapert-unsplash.png);*/
+    width: 102%;
+ }
+ .logos-app {
+    width: 135px;
+}
+ .banner-secundario {
+    margin-top: 0px;
+   /* background-image: url(../images/BG_banner_mob.png);*/
+    background-size: contain;
+    width: 144%;
+    height: 798px;
+    margin-left: 34%;
+    background-size: 45%;
+    position: relative;
+    top: 59px;
+}
+    .banner-principal .pago-automatico .img-pago-autm {
+    width: 60%;
+    margin: 0 auto;
+    float: left;
+    padding-top: 30px;
+    margin-left: 24px;
+    }
+    .banner-principal .pago-automatico .img-pago-autm img {
+    width: 100%!important;
+    margin-left: -13px;
+}
+
+    .banner-principal .inscripcion-pg-autm {
+        display: none;
+    }
+    .mob-inscripcion-pg-autm{
+        display: block;
+        text-align: justify;
+        font-family: 'dinnext regular';
+        font-size: 16px;
+        color: #b6b6b6;
+        width: 92%;
+        margin: 0 auto;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .style-bold-mob{
+        font-size: 23px;
+        font-family: 'dinnext bold';
+    }
+    .contenedor-pasos {
+    width: 288px;
+    margin: 0 auto;
+    }
+    .info-tarjeta-a{
+     text-align: justify;
+     margin-bottom: 65px;
+    }
+     .info-tarjeta{
+     text-align: justify;
+
+    }
+    .texto-info-a {
+    float: right;
+    width: 100%;
+    margin-top: 36px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    text-align: center;
+}
+ .info-icon-a {
+    width: 95%;
+    float: left;
+  }
+.texto-info-b {
+    width: 108%;
+    margin-top: 40px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    text-align: justify;
+    float: none;
+}
+ .info-icon-b {
+    width: 95%;
+    float: left;
+    margin-bottom: 18px;
+  }
+  .texto-info-c {
+    float: right;
+    width: 100%;
+    margin-top: 36px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    text-align: center;
+}
+ .info-icon-c {
+    width: 95%;
+    float: left;
+  }
+  .texto-info-d {
+    float: right;
+    width: 100%;
+    margin-top: 36px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    text-align: center;
+}
+ .info-icon-d {
+    width: 95%;
+    float: left;
+  }
+  .texto-info-e {
+    width: 100%;
+    margin-top: 52px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    text-align: justify;
+    float: none;
+}
+ .info-icon-e {
+    width: 95%;
+    float: left;
+    margin-bottom: 18px;
+  }
+  .texto-info-f {
+    float: right;
+    width: 100%;
+    margin-top: 36px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    text-align: center;
+}
+ .info-icon-f {
+    width: 95%;
+    float: left;
+  }
+  .texto-info-g {
+    float: right;
+    width: 100%;
+    margin-top: 36px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    text-align: center;
+}
+ .info-icon-g {
+    width: 95%;
+    float: left;
+  }
+  .flecha{
+    background-image: url(../images/flecha.png);
+    margin-top: 26px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 92%;
+    height: 55px;
+    float: left;
+}
+.pagacuenta{
+    display: none;
+}
+
+@media (max-width:375px){
+  .texto-info-e {
+    width: 107%;
+    margin-top: 36px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    float: left;
+   
+}
+.info-icon-b {
+    width: 95%;
+    float: left;
+    margin-bottom: 25px;
+    margin-top: 264px;
+}
+.desktop{
+    display: none;
+}
+.movil{
+    display: block;
+}
+.text-rosa {
+    color: #fd6e99;
+    font-size: 30px;
+}
+.text-pagacuenta {
+    color: #005CFF;
+    font-size: 30px;
+
+
+}
+.pagacuenta{
+    display: none;
+}
+.banner-principal{
+    height: 398px;
+    /*background-image: url(../images/becca-tapert-unsplash.png);*/
+    width: 102%;
+ }
+ .banner-secundario {
+        margin-top: 0px;
+   /* background-image: url(../images/BG_banner_mob.png);*/
+    background-size: contain;
+    width: 145%;
+    height: 798px;
+    margin-left: 33%;
+    background-size: 45%;
+    position: relative;
+    top: 50px;
+}
+.banner-principal .pago-automatico .img-pago-autm img {
+    width: 100%!important;
+    margin-left: -15px;
+}
+.background-azul {
+    margin-top: 255%!important;
+}
+.text-right{
+    text-align: center!important;
+}
+.smartphone {
+    width: 120%;
+}
+.logos-app {
+    width: 140px;
+}
+}
+@media (max-width:360px){
+  
+}
+@media (max-width:320px) {
+   .texto-info-e {
+    width: 101%;
+    margin-top: 36px;
+    font-size: 22px;
+    color: #777777;
+    line-height: 26px;
+    font-family: 'dinnext regular';
+    float: left;
+    }
+     .contenedor-pasos{
+    width: 265px;
+    margin: 0 auto;
+    }
+    .banner-principal {
+    height: 357px;
+    /*background-image: url(../images/banner-izq.png);*/
+    width: 102%;
+}
+.banner-principal .pago-automatico .img-pago-autm img {
+    width: 100%!important;
+    margin-left: 0px;
+}
+.banner-secundario {
+    margin-top: 0px;
+    /*background-image: url(../images/BG_banner_mob.png);*/
+    background-size: contain;
+    width: 145%;
+    height: 798px;
+    margin-left: 35%;
+    background-size: 45%;
+    position: relative;
+    top: 50px;
+}
+.w-320{
+    width: 100%;
+}
+.text-rosa {
+    color: #fd6e99;
+    font-size: 26px;
+}
+.text-pagacuenta {
+    color: #005CFF;
+    font-size: 27px;
+}
+}

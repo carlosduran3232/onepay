@@ -1,0 +1,509 @@
+@charset "utf-8";
+
+/***********************************
+    PLANES PERSONAS
+    Creada: 19.02.18
+***********************************/
+
+/***********************************
+    FONT FACE
+***********************************/
+
+/*@font-face {
+    font-family: 'font-awesome';
+    src: url('../fonts/fontawesome-webfont.eot');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.ttf') format('truetype'), 
+    url('../fonts/fontawesome-webfont.svg#dinnext_font-awesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dinnext regular';
+    src: url('../fonts/dinnext-regular-webfont.eot');
+    src: url('../fonts/dinnext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/dinnext-regular-webfont.ttf') format('truetype'), 
+    url('../fonts/dinnext-regular-webfont.svg#dinnext_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dinnext medium';
+    src: url('../fonts/dinnext-medium-webfont.eot');
+    src: url('../fonts/dinnext-medium-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/dinnext-medium-webfont.ttf') format('truetype'), 
+    url('../fonts/dinnext-medium-webfont.svg#dinnext_medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dinnext Light';
+    src: url('../fonts/dinnext-light-webfont.eot');
+    src: url('../fonts/dinnext-light-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/dinnext-light-webfont.ttf') format('truetype'), 
+    url('../fonts/dinnext-light-webfont.svg#dinnext_light') format('svg');
+}
+@font-face {
+    font-family: 'dinnext bold';
+    src: url('../fonts/dinnext-bold-webfont.eot');
+    src: url('../fonts/dinnext-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/dinnext-bold-webfont.ttf') format('truetype'), 
+    url('../fonts/dinnext-bold-webfont.svg#dinnext_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'), 
+    url('../fonts/roboto-regular-webfont.svg#Roboto_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/roboto-bold-webfont.ttf') format('truetype'), 
+    url('../fonts/roboto-bold-webfont.svg#Roboto_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/roboto-light-webfont.ttf') format('truetype'), 
+    url('../fonts/roboto-light-webfont.svg#Roboto_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/original_MyriadPro-Regular.eot');
+    src: url('../fonts/original_MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/original_MyriadPro-Regular.ttf') format('truetype'), 
+    url('../fonts/original_MyriadPro-Regular.svg#Roboto_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TrebuchetMS Regular';
+    src: url('../fonts/TrebuchetMS-regular.eot');
+    src: url('../fonts/TrebuchetMS-regular.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/TrebuchetMS-regular.ttf') format('truetype'), 
+    url('../fonts/TrebuchetMS-regular.svg#TrebuchetMS_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+/*****************************************
+    AJUSTES GENERALES PARA TEST Y PRO
+*****************************************/
+
+html {
+    height: 100%
+}
+* {
+    margin: 0;
+    padding: 0
+}
+footer {
+    float: left!important;
+    width: 100%!important
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Barlow', sans-serif;
+}
+
+.btn-orange {
+    font-size: 15px;
+    color: #FFF;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    background-color: #FF6702;
+    border: solid 1px #FF6702;
+    padding: 6px 10px!important;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-sizing: border-box;
+}
+.btn-orange:hover {
+    background-color: #FFF;
+    border: solid 1px #FF6601;
+    color: #FF6601;
+}
+.btn-blue {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 220px;
+    background-color: #0154a0;
+    border: 1px solid #0154a0;
+    border-radius: 5px;
+    color: #FFF;
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    padding: 8px;
+    transition: all 0.5s;
+}
+.btn-blue:hover {
+    color: #0154a0;
+    background-color: #FFF;
+    border: 1px solid #0154a0;
+}
+.Deskt{
+    display: block;
+}
+.Mobl{
+    display: none;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.bl{
+     width: 100%;
+     background-color:red;
+     padding: 10px;
+}
+.mt-video{
+    margin-top: 57px;
+}
+.bt-1{
+    position: absolute;
+    top: 0;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.text-blue-p{
+        color: #005CFF;
+    font-size: 59px;
+   
+}
+.text-blue{
+    color: #005CFF;
+    font-size: 20px;
+}
+.img-app{
+    width: 50%!important;
+}
+.text-saldo{
+    line-height: 1px;
+    font-size: 22px;
+}
+.texto-saldo-2{
+    line-height: 35px;
+}
+.text-app{
+    font-size: 26px;
+}
+/***********************************
+    banner princ
+***********************************/
+.banner-principal{
+    width: 100%;
+    float: left;
+}
+.banner-principal img{
+    width: 100%;
+}
+.banner-movil img{
+    width: 100%;
+}
+/***********************************
+    banner princ
+***********************************/
+.section-saldo{
+    width: 100%;
+    float: left;
+}
+.content-title{
+    width: 82%;
+    margin: 0 auto;
+    line-height: 23px;
+}
+.text-h1{
+    color: #0f80ce;
+    font-size: 90px;
+    font-weight: 600;
+}
+.text-h1 span{
+    color: #a4f2d9;
+    font-family: 'Barlow', sans-serif;
+}
+
+.text-01{
+    color: #0f80ce;
+    font-weight: 600;
+    font-size: 44px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.text-02{
+    color: #0f80ce;
+    font-size: 24px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.list-onepay{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+.text-btn{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.img-phone{
+   width: 100%;
+   margin-top: 25%;
+}
+.mob{
+    display: none;
+}
+.text-blue-movil{
+    color: #0f80ce;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 32px;
+}
+.text-blue-movil-1{
+    color: #0f80ce;
+    font-weight: 700;
+    
+}
+
+
+/***********************************
+    banner princ
+***********************************/
+.sect-re{
+    width: 100%;
+    float: left;
+    height: 300px;
+}
+.caja-izd{
+    width: 57%;
+    height: 280px;
+    background-image: url(../images/nube-verde-azul.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.caja-izd ul{
+    margin-top: 68px;
+    margin-left: 48px;
+}
+.sect-btn-equipo{
+    width: 43%;
+    float: left;
+}
+.img-btn{
+    width: 18%;
+    float: left;
+    margin-right: 35px;
+    font-family: 'Barlow', sans-serif;
+}
+.img-btn img{
+    width: 100%;
+}
+.cont-img{
+    float: left;
+    width: 137%;
+    margin-left: 100px;
+    position: relative;
+    top: 76px;
+}
+.equipo{
+    width: 52%;
+    float: right;
+    right: 0;
+    position: relative;
+    top: -118px
+}
+
+.img-onepay{
+    margin-right: 10px;
+}
+/***********************************
+    MEDIA QUERYS DESTK
+***********************************/
+@media (max-width:1920px) {
+   .ul-onepay{
+        padding: 3.5% 0px;
+   }
+   .mt-video{
+        margin-top: 60px;
+    }
+
+
+ 
+}
+@media (max-width:1601px) {
+    .text-btn {
+   
+    font-size: 13px;
+    }
+}
+@media (max-width:1560px) {
+  
+}
+@media (max-width:1440px) {
+   
+}
+@media (max-width:1366px) {
+    
+}
+@media (max-width:1280px) {
+   .list-onepay {
+    font-size: 18px;
+}
+}
+
+@media (max-width:1025px) {
+ .text-btn{
+    font-size: 8px;
+ }
+ .caja-izd ul {
+    margin-top: 33px;
+    margin-left: 27px;
+}
+.list-onepay {
+    font-size: 14px;
+    }
+    .mt-video{
+        margin-top: 22px;
+    }
+    .bt-1{
+        margin-top: 2%;
+    }
+}
+/***********************************
+    MEDIA QUERYS TABLE
+***********************************/
+@media (max-width:823px) {
+   
+}
+@media (max-width:768px) {
+
+    .text-h1 {
+        font-size: 50px;
+    }
+
+    .text-01 {
+        font-size: 27px;
+    }
+
+    .text-02 {
+        font-size: 17px;
+    }
+
+    .list-onepay{
+        font-size: 10px;
+    }
+
+    .cont-img {
+    width: 160%;
+    margin-left: 66px;
+    top: 41px;
+    }
+
+    .text-btn {
+        font-size: 6.5px;
+    }
+
+    .img-onepay{
+        margin-right: 5px;
+        width: 30px;
+    }
+     .btn-orange {
+    width: 103%;
+}
+}
+
+@media (min-width:568px) and (max-width:737px) {
+ .celphone{
+    width: 50% !important;
+    margin: auto !important;
+ }
+}
+
+/***********************************
+    MEDIA QUERYS MOBILE
+***********************************/
+@media (max-width:450px) {
+    .Deskt{
+    display: none;
+    }
+    .Mobl{
+    display: block;
+    }
+    .content-title {
+    width: 100%;
+    }
+    .content-title img{
+        width: 100%!important;
+    }
+    .celphone{
+    width: 50% !important;
+    margin: auto !important;
+ }
+
+ .img-btn {
+    margin-top: 10px;
+     width: 50%;
+     margin-right: 5px;
+     margin-bottom: 10px;
+ }
+ .text-btn{
+    font-size: 13.5px;
+ }
+  .btn-orange {
+    width: 107%;
+}
+}
+
+@media (max-width:375px){
+    .celphone{
+    width: 50%;
+    margin: auto;
+ }
+ .text-btn{
+    font-size: 13px;
+ }
+ .btn-orange {
+    width: 107%;
+}
+  
+}
+@media (max-width:360px){
+  .celphone{
+    width: 50%;
+    margin: auto;
+ }
+  .btn-orange {
+    width: 107%;
+}
+}
+@media (max-width:320px) {
+   .text-btn {
+    font-size: 11.5px;
+}
+ .btn-orange {
+    width: 100%;
+}
+}
